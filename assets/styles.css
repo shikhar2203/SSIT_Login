@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/ironman.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+   
+}
+
+img {
+    margin-top: 5%;
+    margin-left: 15%;
+    height: 250px;
+
+}
+
+label{
+    color: white;
+    font-size: 20px;
+    
+    
+}
+
+input{
+    border-radius: 8px;
+    height:30px;
+    
+}
+
+div {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    border-style:double;
+    border-radius: 20px;
+    border-color: red;
+    border-width: 3px;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 35px;
+    
+}
+
+footer{
+    color: gold;
+    position:absolute;
+    bottom: 0%;
+    left: 16%;
+}
